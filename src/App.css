@@ -1,0 +1,27 @@
+.dark{
+    background-color: #1c1a1a;
+    color:#eceff1;
+    height:100vh;
+  }
+  
+.light{
+    background-color: #204863;
+    color:white;
+    height:100vh;
+}
+
+.iconbright{
+   position: fixed;
+   bottom:10%;
+   right:10%;
+   cursor: pointer;
+   background-color: white;
+   color:black;
+   padding:10px;
+   border-radius: 10px;
+}
+
+.iconbright:hover{
+    background-color: black;
+    color:white;
+}

@@ -1,0 +1,85 @@
+.appHeading{
+    text-align: center;
+}
+
+.view{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appCodes{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+  
+
+.appActions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+@media screen and (max-width: 700px) {
+    .appActions2{
+        font-size: 12px;
+    }
+  }
+  
+
+  @media screen and (max-width: 400px) {
+    .appActions2{
+        font-size: 10px;
+    }
+  }
+
+  .stacks{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:20px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    /* CSS rules for screens with a maximum width of 600px */
+  .stacks{
+    width:300px;
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  }
+  
+  
+  .stack{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+  }
+  
+  .stackp{
+    margin: 0;
+  }
+  
+  .stack2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:5px;
+  }
+  
+
+  .arrow{
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
